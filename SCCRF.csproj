@@ -29,22 +29,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XjJeiManager\CellInfo.cs" />
-    <Compile Include="XjJeiManager\CellInfoShow.cs" />
-    <Compile Include="XjJeiManager\CodeTable.cs" />
-    <Compile Include="XjJeiManager\JEIinit.cs" />
-    <Compile Include="XjJeiManager\MessageInfo.cs" />
-    <Compile Include="XjJeiManager\MoreInfo.cs" />
-    <Compile Include="XjJeiManager\XjBitmapClickWidget.cs" />
-    <Compile Include="XjJeiManager\XjBitmapWidget.cs" />
-    <Compile Include="XjJeiManager\XJCompare.cs" />
-    <Compile Include="XjJeiManager\XjJeiBehavior.cs" />
-    <Compile Include="XjJeiManager\XjJeiBlock.cs" />
-    <Compile Include="XjJeiManager\XjJeiLibrary.cs" />
-    <Compile Include="XjJeiManager\XjJeiManager.cs" />
-    <Compile Include="XjJeiManager\XjJeiWidget.cs" />
-    <Compile Include="XjJeiManager\XjTimer.cs" />
-    <Compile Include="XjJeiManager\ZhcNToPinyin.cs" />
+    <Compile Include="SCCRF\CellInfo.cs" />
+    <Compile Include="SCCRF\CellInfoShow.cs" />
+    <Compile Include="SCCRF\CodeTable.cs" />
+    <Compile Include="SCCRF\JEIinit.cs" />
+    <Compile Include="SCCRF\MessageInfo.cs" />
+    <Compile Include="SCCRF\MoreInfo.cs" />
+    <Compile Include="SCCRF\XjBitmapClickWidget.cs" />
+    <Compile Include="SCCRF\XjBitmapWidget.cs" />
+    <Compile Include="SCCRF\XJCompare.cs" />
+    <Compile Include="SCCRF\XjJeiBehavior.cs" />
+    <Compile Include="SCCRF\XjJeiBlock.cs" />
+    <Compile Include="SCCRF\XjJeiLibrary.cs" />
+    <Compile Include="SCCRF\XjJeiManager.cs" />
+    <Compile Include="SCCRF\XjJeiWidget.cs" />
+    <Compile Include="SCCRF\XjTimer.cs" />
+    <Compile Include="SCCRF\ZhcNToPinyin.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Engine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -73,6 +73,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Resources\SCCRF.cr" />
+    <None Include="Resources\SCCRF.csv" />
+    <None Include="Resources\SCCRF.pak" />
+    <None Include="Resources\SCCRF.xdb" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,26 @@
+<JEI>
+<ProjectTemplate Name="Project" Guid="85023bf8-1c90-4dd1-9442-e6c13691d078">
+	<MemberSubsystemTemplate Name="XjJeiBehavior" Guid="d3fffa4a-c213-41f7-9bcc-bc3899325e14" InheritanceParent="a01221eb-6cfb-49cd-b5a9-5b9c3267d2c6"/>
+</ProjectTemplate>
+<EntityTemplate Name="Player" Guid="4be6c1c5-d65d-4537-8a8b-a391969e6dc2">
+    <MemberComponentTemplate Name="CellInfoShow" Guid="9551fa5b-139b-4386-a3bf-f582d739533f" InheritanceParent="b05700ed-7e4e-4679-98f5-b597f421496b">
+	<Parameter Name="SlotsCount" Guid="f9efb019-685c-4847-96a4-41f1f91f330e" Value="1" Type="int" />		
+    <Parameter Name="Class" Guid="211d5b4d-58bb-445c-be3e-c5ee897f8a77" Value="Game.CellInfoShow" Type="string" />
+    </MemberComponentTemplate>
+</EntityTemplate>
+<Folder Name="BlockBehaviors" Guid="00c97f0f-731e-481c-9909-eae9cc5ee940">
+	<SubsystemTemplate Name="XjJeiBehavior" Guid="a01221eb-6cfb-49cd-b5a9-5b9c3267d2c6" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+		<Parameter Name="CellInfoSwitch" Guid="1f35fa66-3a90-4c83-94fe-963b21007dab" Type="bool" Value="True"/>
+		<Parameter Name="CellInfoPosi" Guid="6d2b5709-cbcd-4f90-a54d-500da576cb85" Type="bool" Value="True"/>
+		<Parameter Name="CellInfoUpMode" Guid="c53c2f25-7ca6-4073-8c7a-5f26d7f4efa9" Type="bool" Value="True"/>
+		<Parameter Name="CellInfoDura" Guid="5e5b2e85-3361-4a4d-8a02-806ecc6dce57" Type="bool" Value="True"/>		
+		<Parameter Name="ShowJump" Guid="77e73c0a-4598-4d4b-adad-86460d2f0087" Type="bool" Value="False"/>				
+		<Parameter Name="JumpSize" Guid="5d57c7cd-1071-4056-9046-ac949a38e3e2" Type="int" Value="64"/>
+		<ParameterSet Guid="245beb8b-b824-4dc4-8ecd-87cd2fb5da0f" Name="MarkFlags"/>
+		<Parameter Name="CellInfoColor" Guid="7351391f-c7aa-4f4a-b5c5-d5c8d5db30b3" Type="int" Value="0"/>
+		<Parameter Name="MarginX" Guid="897e66df-6856-4aa3-8352-85270efa9750" Type="int" Value="0"/>
+		<Parameter Name="MarginY" Guid="53ca7631-4658-4319-9870-52535fb13522" Type="int" Value="0"/>
+		<Parameter Name="Class" Guid="30564cc5-f5d8-46c9-8acd-4f824ee0e835" Value="Game.SubsystemXjJeiBehavior" Type="string" />
+	</SubsystemTemplate>
+</Folder>
+</JEI>
